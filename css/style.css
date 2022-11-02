@@ -3,3 +3,29 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    font-family: sans-serif;
+}
+/* utilita*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* generale*/
+
+.main-header{
+background-color: lightblue;
+min-height: 80px;
+}
+
