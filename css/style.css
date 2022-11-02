@@ -28,7 +28,7 @@ body{
 }
 
 .main-container-pattern{
-    min-height: 700px;
+    min-height: 600px;
     padding-top: 50px;
 }
 
@@ -82,7 +82,7 @@ padding-top: 15px;
     background-color: pink;
 }
  
-/*colori tabelle*/
+/*utils cells*/
 .team-blue{
     background-color: lightblue;    
  }
@@ -97,3 +97,17 @@ padding-top: 15px;
 .smaller{
     flex-basis: 40%;
 }
+
+.cells-bg-gray{
+    background-color: lightgray;
+}
+
+.cells-bg-black{
+    background-color: black;
+}
+
+#big-green{
+    height: 800px;
+    background-color: green;
+}
+ 
