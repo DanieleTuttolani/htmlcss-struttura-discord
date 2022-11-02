@@ -22,7 +22,7 @@ body{
 
 
 
-/* generale*/
+/* generale HEADER*/
 
 .main-header{
 background-color: lightblue;
@@ -52,4 +52,21 @@ padding-top: 15px;
 .login{
     flex-basis: 25%;
     border: 2px dashed black;
+}
+
+
+.main-picture-bg{
+    background-color: blue;
+    min-height: 500px;
+}
+
+#sm-container{
+    margin: 0px auto;
+    max-width: 900px;
+    padding: 55px 0;
+}
+
+#sm-container>div{
+    height: 390px;
+    background-color: pink;
 }
