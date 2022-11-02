@@ -29,3 +29,22 @@ background-color: lightblue;
 min-height: 80px;
 }
 
+.header-content{
+    background-color: goldenrod;
+    min-height: 50px;
+    min-width: 100px
+}
+
+.logo{
+    flex-basis: 25%;
+    border: 2px dashed black;
+}
+
+.link{
+    flex-basis: 50%;
+    border: 2px dashed black;
+}
+.login{
+    flex-basis: 25%;
+    border: 2px dashed black;
+}
