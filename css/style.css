@@ -27,12 +27,15 @@ body{
 .main-header{
 background-color: lightblue;
 min-height: 80px;
+padding-top: 15px;
 }
 
 .header-content{
     background-color: goldenrod;
     min-height: 50px;
-    min-width: 100px
+    min-width: 100px;
+    line-height: 45px;
+    padding-left: 10px;
 }
 
 .logo{
@@ -43,6 +46,8 @@ min-height: 80px;
 .link{
     flex-basis: 50%;
     border: 2px dashed black;
+    display: flex;
+    justify-content: center;
 }
 .login{
     flex-basis: 25%;
