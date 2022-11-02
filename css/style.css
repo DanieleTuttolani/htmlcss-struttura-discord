@@ -7,6 +7,11 @@
 body{
     font-family: sans-serif;
 }
+
+
+
+
+
 /* utilita*/
 .container{
     max-width: 1200px;
@@ -15,11 +20,17 @@ body{
 
 .flex-container{
     display: flex;
+}
+
+.space-btw{
+    display: flex;
     justify-content: space-between;
 }
 
-
-
+.main-container-pattern{
+    min-height: 700px;
+    padding-top: 50px;
+}
 
 
 /* generale HEADER*/
@@ -69,4 +80,20 @@ padding-top: 15px;
 #sm-container>div{
     height: 390px;
     background-color: pink;
+}
+ 
+/*colori tabelle*/
+.team-blue{
+    background-color: lightblue;    
+ }
+ .team-pink{
+    background-color: pink;
+ }
+
+.bigger{
+    flex-basis: 60%;
+    height: 500px;
+}
+.smaller{
+    flex-basis: 40%;
 }
