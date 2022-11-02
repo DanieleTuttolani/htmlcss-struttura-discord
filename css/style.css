@@ -29,7 +29,7 @@ body{
 
 .main-container-pattern{
     min-height: 600px;
-    padding-top: 50px;
+    padding: 50px;
 }
 
 
@@ -103,7 +103,7 @@ padding-top: 15px;
 }
 
 .cells-bg-black{
-    background-color: black;
+    background-color: rgb(46, 43, 43);
 }
 
 #big-green{
@@ -111,3 +111,13 @@ padding-top: 15px;
     background-color: green;
 }
  
+.colums{
+    min-height: 600px;
+    width: calc(100% / 5);
+    display: inline-block;
+}
+.col-row{
+    display: inline-block;
+    width: auto;
+    width: 100px;
+}
